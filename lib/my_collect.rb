@@ -3,17 +3,17 @@ require 'pry'
 def my_collect(people)
  i = 0    
  newest = []
- while i < people.length do 
-   
-   
-   
+  while i < people.length do 
+   newest << yield(people[i])
+   i+=1 
+   end
+   newest
  end
- 
  
  
  #people.collect do |m| m.split ( " " )
  #end
-end
+#end
 
 
 
