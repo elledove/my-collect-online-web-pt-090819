@@ -11,7 +11,7 @@ def my_collect(people)
  end
  
  array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-puts my_collect(array) do |name|
+p my_collect(array) do |name|
   name.split(" ").first
 end
  #people.collect do |m| m.split ( " " )
