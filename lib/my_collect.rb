@@ -3,9 +3,7 @@ require 'pry'
 def my_collect (people)
 newest = []
  
- #people.collect do |m| m.upcase
-
-end
+ people.collect do |m| m.upcase
 
 end
 
