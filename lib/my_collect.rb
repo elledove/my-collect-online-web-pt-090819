@@ -5,7 +5,7 @@ newest = []
  
  people.collect do |m| m.upcase
  end
-
+newest << people
 end
 
 
