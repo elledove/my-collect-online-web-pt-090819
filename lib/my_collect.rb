@@ -9,4 +9,4 @@ end
 
 
 
-my_collect {m.upcase}
+my_collect (m.upcase)
