@@ -2,7 +2,7 @@ require 'pry'
 
 def my_collect (people)
 newest = []
- people do |m| m.split(" ")
+ people do |m| m.upcase
  
  #people.collect do |m| m.upcase
 
