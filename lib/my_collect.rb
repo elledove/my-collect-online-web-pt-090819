@@ -8,4 +8,4 @@ end
 
 
 
-my_collect (people)
+#my_collect 
