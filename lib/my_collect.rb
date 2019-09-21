@@ -1,6 +1,6 @@
 require 'pry'
 
-def my_collect (people)
+def my_collect #(people)
   
 end
 
