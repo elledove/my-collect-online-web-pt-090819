@@ -3,10 +3,11 @@ require 'pry'
 def my_collect (people)
 newest = []
  help = people do |m| m.split(" ").first 
- final = help
+ final = help.join(" ")
  #people.collect do |m| m.upcase
-newest <<  help
+newest << final
 end
+final
 end
 
 
