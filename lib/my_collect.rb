@@ -1,8 +1,9 @@
 require 'pry'
 
 def my_collect (people)
-  people.upcase
-  
+newest = []
+people.collect do |m| m.upcase
+end
 end
 
 
