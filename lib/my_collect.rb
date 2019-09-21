@@ -9,4 +9,4 @@ end
 
 
 
-my_collect #(newest)
+my_collect {m.upcase}
